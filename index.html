@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projectile Systems Demo</title>
+        <link rel ="icon" type ="image/x-icon" href="./assets/enemyShip.png">
+
+        <!-- the following says there are javascript source code contained in 
+             the external source files
+        -->
+        <!-- external library -->
+        <script type="text/javascript" src="src/lib/gl-matrix.js"></script>
+
+        <!-- our game -->
+        <script type="module" src="./src/my_game/Space_Fight.js"></script>
+    </head>
+
+     <body>    
+        <canvas id="GLCanvas" width="1280" height="960">
+            <!-- GLCanvas is the area we will draw in: a 640x480 area. -->
+            Your browser does not support the HTML5 canvas.
+            <!-- this message will show only if WebGL clearing failed -->
+        </canvas>
+        <h1>Press N to Switch Level</h1>
+    </body>
+</html>
